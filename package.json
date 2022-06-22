@@ -1,6 +1,7 @@
 {
   "name": "cra-minimal",
   "version": "0.1.0",
+  "homepage": "https://alyokhin22.org/busd-testings",
   "dependencies": {
     "@metamask/providers": "^9.0.0",
     "@types/node": "^16.11.39",
@@ -16,7 +17,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

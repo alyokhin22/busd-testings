@@ -245,7 +245,7 @@ export default function App()
       <div>
         <h1>Metamask не обнаружен!</h1>
 
-        <a href={`https://metamask.app.link/dapp/${window.location.host}`}>
+        <a href={`https://metamask.app.link/dapp/${window.location.host}${window.location.pathname}`}>
           <button>Подключить</button>
         </a>
       </div>
