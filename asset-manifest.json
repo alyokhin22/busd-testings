@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/busd-testings/static/js/main.64c5e79a.js",
+    "index.html": "/busd-testings/index.html",
+    "main.64c5e79a.js.map": "/busd-testings/static/js/main.64c5e79a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.64c5e79a.js"
+  ]
+}
